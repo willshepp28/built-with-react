@@ -1,0 +1,13 @@
+.battery-life {
+  width: 28px; /* Set the desired width of the battery indicator */
+  height: 18px;
+  background-color: #ddd;
+  border: 1px solid #999;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.battery-level {
+  height: 100%;
+  background-color: red; /* Green color for the battery level */
+}

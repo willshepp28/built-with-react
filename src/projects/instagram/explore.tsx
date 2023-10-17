@@ -6,7 +6,6 @@ export default function Explore() {
   return (
     <div className="container d-flex">
       <IOSBar />
-      <h1>Explore</h1>
     </div>
   );
 }
