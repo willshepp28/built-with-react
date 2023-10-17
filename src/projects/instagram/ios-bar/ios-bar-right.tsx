@@ -5,10 +5,10 @@ import BatteryLife from "../../../components/battery-life/battery-life";
 export default function IOSBarRight() {
   return (
     <div className="row">
-      <div className="col-4">
+      <div className="col">
         <WifiSignal />
       </div>
-      <div className="col-4">
+      <div className="col">
         <BatteryLife />
       </div>
     </div>
