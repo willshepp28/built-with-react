@@ -1,15 +1,14 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Explore from './projects/instagram/explore';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Explore from "./projects/instagram/explore";
 
 function App() {
-
   return (
     <Router>
       <Routes>
-      <Route path="/instagram/*" element={<InstagramRoutes />} />
+        <Route path="/instagram/*" element={<InstagramRoutes />} />
       </Routes>
     </Router>
-  )
+  );
 }
 
 function InstagramRoutes() {
@@ -20,4 +19,4 @@ function InstagramRoutes() {
   );
 }
 
-export default App
+export default App;
