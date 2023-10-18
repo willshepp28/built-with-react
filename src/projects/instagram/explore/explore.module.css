@@ -1,4 +1,4 @@
-body {
+.wrapper {
   /* background-color: #eaeaea !important; */
   background: rgb(131, 58, 180);
   background: linear-gradient(
@@ -8,6 +8,9 @@ body {
     rgba(252, 176, 69, 1) 100%
   );
   font-size: 12px;
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh;
+  overflow: auto;
 }
 
 .container {

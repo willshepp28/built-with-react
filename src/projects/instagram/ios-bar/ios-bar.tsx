@@ -5,10 +5,10 @@ import IOSBarRight from "./ios-bar-right";
 export default function IOSBar() {
   return (
     <div className="row mt-2">
-      <div className="col-lg-6">
+      <div className="col-6 col-md-6 col-lg-6">
         <IOSBarLeft />
       </div>
-      <div className="col-lg-6 d-flex justify-content-end">
+      <div className="col-6 col-md-6 col-lg-6 d-flex justify-content-end">
         <IOSBarRight />
       </div>
     </div>

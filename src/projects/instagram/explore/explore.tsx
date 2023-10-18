@@ -1,4 +1,4 @@
-import "./explore.css";
+import styles from "./explore.module.css";
 import React from "react";
 import IOSBar from "../ios-bar/ios-bar";
 import ExploreHeader from "./explore-header/explore-header";
@@ -7,11 +7,13 @@ import ExplorePosts from "./explore-posts/explore-posts";
 
 export default function Explore() {
   return (
-    <div className="container d-flex flex-column">
-      <IOSBar />
-      <ExploreHeader />
-      <ExploreInformationBar />
-      <ExplorePosts />
+    <div className={`${styles.wrapper}`}>
+      <div className={`${styles.container} container d-flex flex-column`}>
+        <IOSBar />
+        <ExploreHeader />
+        <ExploreInformationBar />
+        <ExplorePosts />
+      </div>
     </div>
   );
 }

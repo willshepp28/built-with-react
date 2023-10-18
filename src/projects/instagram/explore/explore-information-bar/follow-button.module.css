@@ -1,0 +1,18 @@
+.followButton {
+  width: 148px;
+  font-size: 9px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btnLightBlue {
+  background-color: #0098fe;
+}
+
+.btnDarkGrey {
+  background-color: #303030;
+}
+
+.followButton:hover {
+  background-color: #005dbb; /* Complementary color for #0098fe */
+}
