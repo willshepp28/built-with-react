@@ -4,7 +4,7 @@ import IOSBarRight from "./ios-bar-right";
 
 export default function IOSBar() {
   return (
-    <div className="row">
+    <div className="row mt-2">
       <div className="col-lg-6">
         <IOSBarLeft />
       </div>
