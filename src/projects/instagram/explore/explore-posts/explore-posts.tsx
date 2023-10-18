@@ -21,7 +21,7 @@ export default function ExplorePosts() {
           {urls.map((url, index) => (
             <div
               key={index}
-              className="col-md-4 mb-1 posts image-container"
+              className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mb-1 posts image-container"
               style={{ padding: "1px" }}
             >
               <img
