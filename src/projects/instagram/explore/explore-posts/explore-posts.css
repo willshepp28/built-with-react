@@ -1,3 +1,14 @@
 .posts {
   height: 123px !important;
+  transition: opacity 0.3s ease;
+}
+
+.posts img {
+  border-radius: 3px;
+  opacity: 0.75;
+}
+
+.posts:hover img {
+  opacity: 1.2;
+  transform: scale(1.2);
 }
