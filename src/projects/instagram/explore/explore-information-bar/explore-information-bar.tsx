@@ -5,16 +5,16 @@ import FollowButton from "./follow-button";
 
 export default function ExploreInformationBar() {
   return (
-    <div className="row mt-4 mb-5">
+    <div className="row mt-4 mb-3">
       <div className="col-4">
         <ProfilePhoto />
       </div>
-      <div className="col-8">
+      <div className="col-7">
         <div className="row text-center">
-          <div className="col-12 mb-1">
+          <div className="col-12 mb-2">
             <NumberOfPosts />
           </div>
-          <div className="col-12 mb-1">
+          <div className="col-12 mb-2">
             <FollowButton />
           </div>
           <div className="col-12">

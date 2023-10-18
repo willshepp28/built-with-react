@@ -24,8 +24,8 @@ export default function ExplorePosts() {
 
   return (
     <div className="row mb-5">
-      <div className="col">
-        <p>Top Posts</p>
+      <div className="col mb-1">
+        <strong>Top Posts</strong>
       </div>
       <div className="col-12">
         <div className="row">{photos}</div>

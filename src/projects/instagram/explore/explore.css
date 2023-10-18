@@ -1,5 +1,13 @@
 body {
-  background-color: #eaeaea !important;
+  /* background-color: #eaeaea !important; */
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  font-size: 12px;
 }
 
 .container {
@@ -7,4 +15,19 @@ body {
   background-color: #000000;
   margin-top: 80px;
   color: white;
+  border-radius: 3px;
+}
+
+.follow-button {
+  width: 148px;
+  font-size: 10px;
+  color: white;
+}
+
+.btn-light-blue {
+  background-color: #0098fe;
+}
+
+.btn-dark-grey {
+  background-color: #303030;
 }
