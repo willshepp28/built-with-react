@@ -1,12 +1,19 @@
 import React from "react";
 import "./explore-posts.css";
 
-export default function ExplorePosts() {
-  const numberOfPhotos = 6; // Change this number to match the total number of photos
-  const photoBaseUrl = "../../../../../public/bali-explore-"; // Change this to the base path of your photos
+const urls = [
+  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697594796/bali-explore-1_uzgmu1.jpg',
+  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697595121/bali-explore-2_d5izoq.jpg',
+  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697594935/bali-explore-3_dh2es2.jpg',
+  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697594936/bali-explore-4_cty8hk.jpg',
+  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697594935/bali-explore-5_nxahip.jpg',
+  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697594935/bali-explore-6_bpnyck.jpg'
 
-  const photos = Array.from({ length: numberOfPhotos }, (_, index) => {
-    const photoUrl = `${photoBaseUrl}${index + 1}.jpg`;
+
+]
+
+export default function ExplorePosts() {
+  const photos = Array.from({ length: urls.length }, (_, index) => {
     return (
       <div
         key={index}
@@ -14,7 +21,7 @@ export default function ExplorePosts() {
         style={{ padding: "1px" }}
       >
         <img
-          src={photoUrl}
+          src={urls[index]}
           alt={`Bali Explore ${index + 1}`}
           className="img-fluid"
         />
