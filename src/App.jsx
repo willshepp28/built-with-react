@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<h1>Welcome to Buit With React!</h1>}/>
+        <Route path="/" element={<h1>Welcome to Buit With React!</h1>} />
         <Route path="/instagram/*" element={<InstagramRoutes />} />
       </Routes>
     </Router>
