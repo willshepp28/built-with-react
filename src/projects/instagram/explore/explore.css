@@ -20,7 +20,7 @@ body {
 
 .follow-button {
   width: 148px;
-  font-size: 10px;
+  font-size: 9px;
   color: white;
   transition: background-color 0.3s ease;
 }

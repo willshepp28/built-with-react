@@ -1,6 +1,6 @@
 .battery-life {
   width: 28px; /* Set the desired width of the battery indicator */
-  height: 18px;
+  height: 12px;
   background-color: #ddd;
   border: 1px solid #999;
   border-radius: 5px;
