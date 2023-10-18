@@ -6,7 +6,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<h1>Welcome to Buit With React!</h1>} />
-        <Route path="/instagram/*" element={<InstagramRoutes />} />
+        <Route path="/ig-clone/*" element={<InstagramRoutes />} />
       </Routes>
     </Router>
   );
