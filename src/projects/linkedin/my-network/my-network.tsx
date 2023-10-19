@@ -11,6 +11,7 @@ const userProfilePhotoUrl = [
   "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-4_bc9xfh.webp",
   "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-5_qxp3we.webp",
   "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720695/linkedin-user-16_aeqblt.webp",
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720695/linkedin-user-17_fevpy3.webp",
 ];
 
 export default function MyNetwork() {
@@ -18,7 +19,7 @@ export default function MyNetwork() {
 
   return (
     <div className={`${styles.wrapper}`}>
-      <div className={`${styles.container} container`}>
+      <div className={`container ${styles.container} `}>
         <div className="row">
           <div className="col mt-3">
             <h6>People you may know from Harvard</h6>
@@ -28,7 +29,7 @@ export default function MyNetwork() {
         <div className={`row mt-3 d-flex ${styles.userProfilesContainer}`}>
           {userProfilePhotoUrl.map((url) => (
             <div
-              className={`${styles.userProfileCard}  ${styles.partialBgRow} col-3 mb-3`}
+              className={`${styles.userProfileCard}  ${styles.partialBgRow} xy col-xs-12 col-8 col-lg-3 mb-3`}
             >
               <div className="row d-flex justify-content-center mt-3">
                 <div className="col-12">
