@@ -1,9 +1,10 @@
 import styles from "../linkedin.module.css";
-import React from "react";
+import React, { useState } from "react";
 import { faker } from "@faker-js/faker";
 
 export default function MyNetwork() {
   const columns = Array.from({ length: 16 }, (_, index) => index + 1);
+
   return (
     <div className={`${styles.wrapper}`}>
       <div className={`${styles.container} container`}>
@@ -21,7 +22,7 @@ export default function MyNetwork() {
               <div className="row d-flex justify-content-center mt-3">
                 <div className="col-12">
                   <img
-                    src={`${faker.image.avatarLegacy()}`}
+                    src="../../../../public/linkedin-user-1.png"
                     className={`img-fluid ${styles.linkedinCircle}`}
                   />
                 </div>
@@ -50,13 +51,15 @@ export default function MyNetwork() {
                       viewBox="0 0 16 16"
                       data-supported-dps="16x16"
                       fill="currentColor"
-                      class="mercado-match"
                       width="16"
                       height="16"
                       focusable="false"
                     >
                       <path d="M9 4a3 3 0 11-3-3 3 3 0 013 3zM6.75 8h-1.5A2.25 2.25 0 003 10.25V15h6v-4.75A2.25 2.25 0 006.75 8zM13 8V6h-1v2h-2v1h2v2h1V9h2V8z"></path>
                     </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+      <path d="M10.87 9.52a1 1 0 01-1.37.37l-2-1A1 1 0 017 8V5a1 1 0 012 0v2.42l1.5.74a1 1 0 01.37 1.36zM15 8a7 7 0 11-7-7 7 7 0 017 7zm-2 0a5 5 0 10-5 5 5 5 0 005-5z"></path>
+    </svg>
                     <strong className={`${styles.ml3}`}>Connect</strong>
                   </button>
                 </div>
