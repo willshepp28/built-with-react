@@ -3,12 +3,15 @@ import React, { useState } from "react";
 import { faker } from "@faker-js/faker";
 
 const userProfilePhotoUrl = [
-  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697720696/linkedin-user-20_tnk5ln.webp',
-  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697720696/linkedin-user-19_akcgpo.webp',
-  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-2_lfrrfh.webp',
-  'https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-3_mavkmg.webp',
-
-]
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720696/linkedin-user-20_tnk5ln.webp",
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720696/linkedin-user-19_akcgpo.webp",
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-2_lfrrfh.webp",
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-3_mavkmg.webp",
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-1_zorsrs.webp",
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-4_bc9xfh.webp",
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720693/linkedin-user-5_qxp3we.webp",
+  "https://res.cloudinary.com/dfahwwvue/image/upload/v1697720695/linkedin-user-16_aeqblt.webp",
+];
 
 export default function MyNetwork() {
   const columns = Array.from({ length: 16 }, (_, index) => index + 1);
@@ -30,7 +33,6 @@ export default function MyNetwork() {
               <div className="row d-flex justify-content-center mt-3">
                 <div className="col-12">
                   <img
-                    // src="../../../../public/linkedin-user-1.png"
                     src={url}
                     className={`img-fluid ${styles.linkedinCircle}`}
                   />
