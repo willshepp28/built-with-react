@@ -1,6 +1,6 @@
 .logo {
-    width: 100px; /* Set the desired width */
-    height: 100px; /* Set the desired height */
-    background-image: url('path/to/your-svg-file.svg');
-    background-position: -20px -30px; 
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  background-image: url("path/to/your-svg-file.svg");
+  background-position: -20px -30px;
 }
