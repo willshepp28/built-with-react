@@ -1,0 +1,110 @@
+.wrapper {
+  background-color: #000000 !important;
+
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh;
+  overflow: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-areas: "sidebar status info";
+  height: 100%;
+  color: white;
+}
+
+.boxWidth {
+  height: 50% !important;
+}
+
+.greyBorder {
+  border: 1px rgb(47, 51, 54) solid;
+}
+
+.greyBg {
+  /* background-color: rgb(22, 24, 28); */
+}
+
+img {
+  display: block;
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.statusGrid {
+  grid-area: status;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4;
+}
+
+.statusHeader {
+  text-align: center;
+}
+
+.statusItem {
+  /* height: 20% !important; */
+  background-color: rgb(22, 24, 28) !important;
+}
+
+.statusUserInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.statusCaption {
+  
+}
+
+.statusDate {
+  
+}
+
+.statusMetrics {
+  
+}
+
+.statusMetricsCount {
+  
+}
+
+.statusMetricsIcons {
+  
+}
+
+
+
+.info {
+  grid-area: info;
+}
+
+@media screen and (max-width: 500px) {
+  .grid {
+    grid-template-areas: "status";
+    height: 100%;
+    color: white;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .info {
+    display: none;
+  }
+  .grid {
+    display: "sidebar status";
+  }
+}
+
+/* @media screen and (min-width: 600px) {
+
+} */
