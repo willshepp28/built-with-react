@@ -25,8 +25,14 @@ const UserProfile: React.FC = () => {
           </header>
 
           {/* USER INFO */}
-          <section className={`${styles.statusUserInfo} ${styles.greyBg} ${styles.statusItem}`}>
-            <img src="../../../../../public/brian-acton.jpeg" alt={`A picture of Brian Acton`} loading="lazy" />
+          <section
+            className={`${styles.statusUserInfo} ${styles.greyBg} ${styles.statusItem}`}
+          >
+            <img
+              src="../../../../../public/brian-acton.jpeg"
+              alt={`A picture of Brian Acton`}
+              loading="lazy"
+            />
             <div>
               <h6>Brian Acton</h6>
               <p>@brianacton</p>
@@ -34,7 +40,9 @@ const UserProfile: React.FC = () => {
           </section>
 
           {/* STATUS */}
-          <section className={`${styles.statusCaption} ${styles.greyBg} ${styles.statusItem}`}>
+          <section
+            className={`${styles.statusCaption} ${styles.greyBg} ${styles.statusItem}`}
+          >
             <h6>
               Facebook turned me down. It was a great opportunity to connect
               with some fantastic people. Looking forward to life's next
@@ -43,12 +51,16 @@ const UserProfile: React.FC = () => {
           </section>
 
           {/* DATE */}
-          <section className={`${styles.statusDate} ${styles.greyBg} ${styles.statusItem}`}>
+          <section
+            className={`${styles.statusDate} ${styles.greyBg} ${styles.statusItem}`}
+          >
             {createdAt.toString()}
           </section>
 
           {/* METRICS */}
-          <section className={`${styles.statusMetrics} ${styles.greyBg} ${styles.statusItem}`}>
+          <section
+            className={`${styles.statusMetrics} ${styles.greyBg} ${styles.statusItem}`}
+          >
             <span>9,901 Reposts</span>
             <span>679 Quotes</span>
             <span>12.2K Likes</span>

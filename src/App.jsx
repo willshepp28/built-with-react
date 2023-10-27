@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Explore from "./projects/instagram/explore/explore";
 import MyNetwork from "./projects/linkedin/my-network/my-network";
-import Challenges from "./projects/strava/challenges/challenges";
+// import Challenges from "./projects/strava/challenges/challenges";
 import Home from "./projects/x/pages/home/home.x";
 import UserProfile from "./projects/x/pages/user-profile/user-profile.x";
+import Contacts from "./projects/hubspot/pages/contacts.hubspot";
 
 function App() {
   return (
@@ -13,9 +14,18 @@ function App() {
         <Route path="/ig-clone/*" element={<InstagramRoutes />} />
         <Route path="/linkedin-clone/*" element={<LinkedinRoutes />} />
         <Route path="x-clone/*" element={<XRoutes />} />
+        <Route path="hubspot-clone/*" element={<HubSpotRoutes />} />
         {/* <Route path="/strava-clone/*" element={<StravaRoutes />} /> */}
       </Routes>
     </Router>
+  );
+}
+
+function HubSpotRoutes() {
+  return (
+    <Routes>
+      <Route path="/contacts" element={<Contacts />} />
+    </Routes>
   );
 }
 

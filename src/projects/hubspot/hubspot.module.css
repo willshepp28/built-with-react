@@ -1,0 +1,67 @@
+
+.wrapper {
+    font-family: "Lexend Deca",Helvetica,Arial,sans-serif !important;
+}
+.contactsSpan {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fontWeight600 {
+    font-weight: 600;
+}
+
+.fontSize14 {
+    font-size: 14px;
+}
+
+.torquiseFont {
+    color: #0091ae !important;
+}
+
+.orangeBackground {
+    background-color: #ff7a59;
+    border-color: #ff7a59;
+    color: white;
+}
+
+.hubspotButton {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-font-smoothing: auto;
+}
+
+.hubspotTable {
+    text-align: center;
+}
+
+.hubspotThead th {
+    background-color: rgb(245, 248, 250);
+    border: 1px solid rgb(223, 227, 235);
+    background-color: rgb(245, 248, 250);
+    border: 1px solid rgb(223, 227, 235);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hubspotTable td {
+    font-size: 14px;
+}
+
+.hubspotTable td:nth-child(-n+2) {
+    color: #0091ae !important;
+    font-weight: 600;
+}
+
+.borderGrey {
+    border: 1px solid rgb(223, 227, 235) !important;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border: 1;
+}
+
