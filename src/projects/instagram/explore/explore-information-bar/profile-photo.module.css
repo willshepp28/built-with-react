@@ -1,4 +1,4 @@
-.circle {
+/* .circle {
   border-radius: 50%;
   height: 80px;
   width: 80px;
@@ -6,4 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.circleImg {
+  clip-path: circle(50%);
+  width: 75px;
+  height: 75px;
 }
